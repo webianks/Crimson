@@ -8,3 +8,20 @@ The eye is not only the most beautiful but also the most important sensory organ
 2. Continuously checks for the eye related problems like nearsightedness, farsightedness, colour blindness etc.
 3. Relaxation tips and exercises like colour filtering of screen for better sleep. 
 4. Eye test reminders and suggesting nearby doctors. 
+
+```
+ Copyright 2016 Ramankit Singh
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+   
+ ```
