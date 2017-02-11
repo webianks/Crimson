@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "816066846065",
+    "firebase_url": "https://crimsonexp-e639c.firebaseio.com",
+    "project_id": "crimsonexp-e639c",
+    "storage_bucket": "crimsonexp-e639c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816066846065:android:581d2222b412ce49",
+        "android_client_info": {
+          "package_name": "com.webianks.exp.crimson"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816066846065-uim54agfnr88ihorssju0qud5j7su3tn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.webianks.exp.crimson",
+            "certificate_hash": "141E1391EB6FB15A156B4619E45CC2E5A6A04242"
+          }
+        },
+        {
+          "client_id": "816066846065-sfv9b2lsdn0j1njfe5l0nai5d7qik9c9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYGtnCrZoljeNI5tpBkslWv3Ur_h7LxAM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816066846065-sfv9b2lsdn0j1njfe5l0nai5d7qik9c9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
