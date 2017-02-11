@@ -26,5 +26,169 @@
     <string name="sample_date">DD-MM-YYYY</string>
     <string name="wait">Please wait...</string>
     <string name="please_input">Please provide all inputs.</string>
+    <string-array name="test_infos">
+
+        <item> <![CDATA[
+
+        <pre>
+        Myopia, is a condition of the eye where light focuses in front, instead of on the retina. <br/> <br/>
+        This causes distant objects to be blurry while close objects appear normal. <br/> <br/>
+         Other symptoms may include headaches and eye strain.
+         Severe near-sightedness increases the risk of retinal detachment, cataracts, and glaucoma.
+         </pre>
+         ]]> </item>
+
+
+        <item> <![CDATA[
+         <pre>
+        Far-sightedness, also known as hyperopia, is a condition of the eye where light focuses behind,
+         instead of on, the retina.<br/> <br/>
+
+         This causes close objects to be blurry while far objects may appear normal.Other symptoms may include headaches and eye strain. <br/> <br/>
+
+         People with hyperopia can also experience accommodative dysfunction, binocular dysfunction,amblyopia, and strabismus.
+
+        </pre>
+         ]]></item>
+
+
+        <item><![CDATA[
+
+        <pre>
+        Color blindness, also known as color vision deficiency, is the decreased ability to see color or differences in color. <br/> <br/>
+
+        People with total color blindness may also have decreased visual acuity and be uncomfortable in bright environments. <br/> <br/>
+
+        The most common cause of color blindness is due to a fault in the development of one or more of the three sets of color sensing cones in the eye.
+
+        </pre>
+        ]]>
+
+        </item>
+
+        <item><![CDATA[
+        <pre>
+        Amsler grid, is a grid of horizontal and vertical lines used to monitor a person\'s central visual field. <br/> <br/>
+
+        It is a diagnostic tool that aids in the detection of visual disturbances caused by changes in the retina,
+        particularly the macula, as well as the optic nerve and the visual pathway to the brain.
+        </pre>
+        ]]>
+        </item>
+
+        <item> <![CDATA[
+        <pre>
+        Visual acuity (VA) commonly refers to the clarity of vision. Visual acuity is dependent on optical and neural factors, i.e., <br/> <br/>
+         (i) the sharpness of the retinal focus within the eye, <br/> <br/>
+         (ii) the health and functioning of the retina, and <br/> <br/>
+         (iii) the sensitivity of the interpretative faculty of the brain.
+         </pre>
+         ]]> </item>
+
+
+        <item><![CDATA[
+        <pre>
+        With astigmatism, the front surface of the eye or the lens,
+        inside the eye, is curved differently in one direction than the other. <br/> <br/>
+
+        A common symptom is blurry vision. </pre> ]]></item>
+
+    </string-array>
+
+
+    <string-array name="test_directions">
+
+        <item><![CDATA[
+    <pre>
+    Place yourself one hand away  from the screen <br/><br/>
+    Cover one eye with your hand, without pressing on the screen , and take the test.
+    <br/> <br/>
+    After that Cover the other eye and begin the test again.
+    </pre> ]]>
+        </item>
+
+
+        <item><![CDATA[
+        <pre>
+        Take this test correctly, it is necessary to place yourself approximately at a distance of one hand from the screen :
+
+        <br/> <br/>
+
+        Cover one eye with your hand, without pressing on the screen, and read the test below , letter by letter .
+        <br/> <br/>
+
+        Cover the other eye and begin the test again. <br/> <br/>
+
+        If you have read the test as successfully with the right eye as with the left eye,
+        you probably have good central acuity.
+        <br/> <br/>
+        If you do not manage to read all the letters,
+        either with one eye or with two, an eyesight check by an eye care specialist would appear necessary.
+
+        </pre>
+       ]]> </item>
+
+        <item> </item>
+
+        <item> </item>
+
+        <item><![CDATA[
+        <pre>
+
+    1. Place your phone approx 30cm/12 inches from your eyes. <br/>
+
+    2. cover your left eye with your left hand . <br/> <br/>
+
+    3. Read the numbers on the screen loud when you can no longer read more than half the number press stop. <br/> <br/>
+
+    4. The smallest numbers you are able to read will be recorded as your activity . <br/> <br/>
+
+    Start the test again this time with your right eye.
+
+    </pre>
+
+    ]]> </item>
+
+    </string-array>
+
+
+    <string name="color_blindness"> <![CDATA[
+
+        <pre>
+
+        1. Place your phone approx. 30 cm/12 inches from your eyes with each circle set at eye level. <br/> <br/>
+
+        2. Try to identify the hidden number and note down them in the sequence they appear. <br/> <br/>
+
+        </pre>
+    ]]>
+    </string>
+
+
+
+    <string name="grid_test"> <![CDATA[
+
+<pre>
+        1. Place your phone approx. 30 cm/12 inches from your eyes with each circle set at eye level.<br/>
+        2. Look at the dot in the center of the grid.<br/>
+        3. Cover your left eye with your left hand while continuing to look at the dot with your right eye. Do not move your gaze from the dot. <br/>
+        4. Did the dot or squares around the dot change shapes or disapper when you covered one eye? Do you see any blur or distortion in the grid? <br/>
+        5. Now repeat all steps,covering your right eye.
+<pre>
+ ]]>   </string>
+
+    <string name="ast_test"> <![CDATA[
+
+    <pre>
+        1. Place your phone approx. 30 cm/12 inches from your eyes with each circle set at eye level.<br/>
+        2. Look at the wheel.<br/>
+        3. Cover your left eye with your left hand while continuing to look at the wheel with your right eye.<br/>
+        4. Did the lines appear blurry or all lines loook the same?<br/>
+        5. Now repeat all steps,covering your right eye.
+<pre>
+]]>
+    </string>
+
+    <string name="dummy_content">webianks</string>
 
 </resources>

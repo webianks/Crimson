@@ -11,9 +11,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.webianks.exp.crimson.R;
+import com.webianks.exp.crimson.all_tests.Tests;
 import com.webianks.exp.crimson.reports.SaveReports;
 import com.webianks.exp.crimson.sleep_better.SleepBetter;
-import com.webianks.exp.crimson.Tests;
 import com.webianks.exp.crimson.ViewPagerAdapter;
 import com.webianks.exp.crimson.facts.Facts;
 import com.webianks.exp.crimson.tips.HealthyEyeTips;

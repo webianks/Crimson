@@ -31,9 +31,49 @@
         <activity android:name=".screens.SearchClinics" />
         <activity android:name=".reports.SaveReports" />
         <activity android:name=".reports.ViewReports" />
-        <activity android:name=".screens.CheckupReminders"
-            android:label="@string/reminders"
-            />
+        <activity
+            android:name=".screens.CheckupReminders"
+            android:label="@string/reminders" />
+
+        <activity android:name=".all_tests.StartTest">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".screens.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".all_tests.TestInstruction"
+            android:label=" "
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".screens.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ColorBlindnessTest"
+            android:label=" "
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".screens.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AstigmatismTest"
+            android:label=" "
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".screens.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AmslerGridTest"
+            android:label=" "
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".screens.MainActivity" />
+        </activity>
+
 
         <activity
             android:name=".reports.FullViewReport"
