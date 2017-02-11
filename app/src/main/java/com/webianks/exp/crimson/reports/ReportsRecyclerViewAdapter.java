@@ -17,6 +17,7 @@ public class ReportsRecyclerViewAdapter extends RecyclerView.Adapter<ReportsRecy
 
     private Context context;
     private List<AllReports> list;
+    private OnItemClickListener onItemClickListener;
 
 
     public ReportsRecyclerViewAdapter(Context context, List<AllReports> list){
@@ -49,7 +50,7 @@ public class ReportsRecyclerViewAdapter extends RecyclerView.Adapter<ReportsRecy
         return list.size();
     }
 
-    public class VH extends RecyclerView.ViewHolder {
+    public class VH extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         ImageView report;
 
@@ -58,10 +59,26 @@ public class ReportsRecyclerViewAdapter extends RecyclerView.Adapter<ReportsRecy
             super(itemView);
 
             report = (ImageView) itemView.findViewById(R.id.eye_report);
+            itemView.setOnClickListener(this);
 
 
         }
 
+
+        @Override
+        public void onClick(View view) {
+
+            if (onItemClickListener!=null)
+                onItemClickListener.itemClicked(getAdapterPosition());
+        }
+    }
+
+    public void setOnItemClickListener(OnItemClickListener onItemClickListener){
+        this.onItemClickListener = onItemClickListener;
+    }
+
+    public interface OnItemClickListener{
+        void itemClicked(int position);
     }
 
 

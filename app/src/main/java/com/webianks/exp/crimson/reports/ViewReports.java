@@ -1,6 +1,8 @@
 
 package com.webianks.exp.crimson.reports;
 
+import android.app.IntentService;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
@@ -22,10 +24,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class ViewReports extends AppCompatActivity {
+public class ViewReports extends AppCompatActivity implements ReportsRecyclerViewAdapter.OnItemClickListener {
 
     private RecyclerView recyclerView;
     private ProgressBar progressBar;
+    private List<AllReports> allReports;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,8 +56,7 @@ public class ViewReports extends AppCompatActivity {
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference reportsReference = database.getReference("reports");
 
-        final List<AllReports> allReportses = new ArrayList<>();
-
+        allReports = new ArrayList<>();
 
         reportsReference.addValueEventListener(new ValueEventListener() {
             @Override
@@ -67,11 +70,11 @@ public class ViewReports extends AppCompatActivity {
                      reports = new AllReports();
 
                      reports.setUrl(value);
-                     allReportses.add(reports);
+                     allReports.add(reports);
 
                 }
 
-                showImages(allReportses);
+                showImages(allReports);
 
 
             }
@@ -88,6 +91,7 @@ public class ViewReports extends AppCompatActivity {
 
         ReportsRecyclerViewAdapter reportsRecyclerViewAdapter = new ReportsRecyclerViewAdapter(this,allReportses);
         recyclerView.setAdapter(reportsRecyclerViewAdapter);
+        reportsRecyclerViewAdapter.setOnItemClickListener(this);
         progressBar.setVisibility(View.INVISIBLE);
     }
 
@@ -98,5 +102,13 @@ public class ViewReports extends AppCompatActivity {
             finish();
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void itemClicked(int position) {
+
+        Intent intent = new Intent(this,FullViewReport.class);
+        intent.putExtra(getString(R.string.image_url),allReports.get(position).getUrl());
+        startActivity(intent);
     }
 }

@@ -17,5 +17,6 @@
     <string name="ok">Okay</string>
     <string name="save_reports">Save Reports</string>
     <string name="saved_reports">Saved Reports</string>
+    <string name="image_url">image_url</string>
 
 </resources>

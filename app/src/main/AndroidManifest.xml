@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.webianks.exp.crimson">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -11,12 +11,12 @@
     <uses-permission android:name="android.permission.CAMERA" />
 
     <application
+        android:name=".CrimsonApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:name=".CrimsonApplication"
         android:theme="@style/AppTheme">
         <activity android:name=".screens.MainActivity">
             <intent-filter>
@@ -28,7 +28,12 @@
 
         <activity android:name=".screens.SearchClinics" />
         <activity android:name=".reports.SaveReports" />
-        <activity android:name=".reports.ViewReports"/>
+        <activity android:name=".reports.ViewReports" />
+
+        <activity
+            android:name=".reports.FullViewReport"
+            android:theme="@style/AppThemeTransparent" />
+
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
