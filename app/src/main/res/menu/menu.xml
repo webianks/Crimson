@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/ic_maps"
+        android:icon="@drawable/ic_remove_red_eye_white_24dp"
+        android:title="@string/nearby"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/ic_reports"
+        android:icon="@drawable/ic_cloud_white_24dp"
+        android:title="@string/save_reports"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/ic_about"
+        android:title="@string/ic_about"
+        app:showAsAction="never" />
+
+</menu>
