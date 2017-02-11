@@ -16,6 +16,11 @@
         app:showAsAction="always" />
 
     <item
+        android:id="@+id/ic_reminder"
+        android:title="@string/reminders"
+        />
+
+    <item
         android:id="@+id/ic_about"
         android:title="@string/ic_about"
         app:showAsAction="never" />

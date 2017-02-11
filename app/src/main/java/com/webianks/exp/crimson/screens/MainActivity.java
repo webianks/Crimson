@@ -86,6 +86,8 @@ public class MainActivity extends AppCompatActivity {
             startActivity(new Intent(this,SearchClinics.class));
         else if (id == R.id.ic_reports)
             startActivity(new Intent(this, SaveReports.class));
+        else if (id == R.id.ic_reminder)
+            startActivity(new Intent(this,CheckupReminders.class));
 
         return super.onOptionsItemSelected(item);
     }

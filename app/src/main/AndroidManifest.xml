@@ -7,8 +7,10 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
 
     <application
         android:name=".CrimsonApplication"
@@ -29,6 +31,9 @@
         <activity android:name=".screens.SearchClinics" />
         <activity android:name=".reports.SaveReports" />
         <activity android:name=".reports.ViewReports" />
+        <activity android:name=".screens.CheckupReminders"
+            android:label="@string/reminders"
+            />
 
         <activity
             android:name=".reports.FullViewReport"
@@ -46,8 +51,12 @@
             android:name=".sleep_better.ScreenFilterService"
             android:exported="false" />
 
-        <receiver android:name=".sleep_better.ScreenReceiver" />
-        <receiver android:name=".sleep_better.MyAlarmReciever" />
+        <receiver
+            android:name=".sleep_better.ScreenReceiver"
+            android:exported="false" />
+        <receiver
+            android:name=".sleep_better.MyAlarmReciever"
+            android:exported="false" />
 
     </application>
 

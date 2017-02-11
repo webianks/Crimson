@@ -18,5 +18,13 @@
     <string name="save_reports">Save Reports</string>
     <string name="saved_reports">Saved Reports</string>
     <string name="image_url">image_url</string>
+    <string name="reminders">Checkup Reminder</string>
+    <string name="set_reminder">Set Reminder</string>
+    <string name="clinic">Clinic/Hospital Name</string>
+    <string name="address">Clinic/Hospital Address</string>
+    <string name="on_date">On Date</string>
+    <string name="sample_date">DD-MM-YYYY</string>
+    <string name="wait">Please wait...</string>
+    <string name="please_input">Please provide all inputs.</string>
 
 </resources>
