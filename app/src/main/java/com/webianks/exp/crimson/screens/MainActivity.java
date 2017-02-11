@@ -89,8 +89,6 @@ public class MainActivity extends AppCompatActivity {
             startActivity(new Intent(this, SaveReports.class));
         else if (id == R.id.ic_reminder)
             startActivity(new Intent(this,CheckupReminders.class));
-        else if (id == R.id.ic_about)
-            startActivity(new Intent(this,About.class));
 
         return super.onOptionsItemSelected(item);
     }
