@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.webianks.exp.crimson.About;
 import com.webianks.exp.crimson.R;
 import com.webianks.exp.crimson.all_tests.Tests;
 import com.webianks.exp.crimson.reports.SaveReports;
@@ -88,6 +89,8 @@ public class MainActivity extends AppCompatActivity {
             startActivity(new Intent(this, SaveReports.class));
         else if (id == R.id.ic_reminder)
             startActivity(new Intent(this,CheckupReminders.class));
+        else if (id == R.id.ic_about)
+            startActivity(new Intent(this,About.class));
 
         return super.onOptionsItemSelected(item);
     }

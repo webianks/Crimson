@@ -190,5 +190,6 @@
     </string>
 
     <string name="dummy_content">webianks</string>
+    <string name="title_activity_about">About</string>
 
 </resources>
