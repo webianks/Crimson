@@ -2,12 +2,7 @@
 
 <img src="https://github.com/webianks/Crimson/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" height="128" width="128" >
 
-
 The eye is not only the most beautiful but also the most important sensory organ of the human body; four fifths of all the impressions on the senses come from the eye. Moreover, the eyes make an essential contribution to the facial expression and serve for getting into contact with other people, therefore they are an indispensible means of communication. What if there was an App, which is your mate in all things related to your eyes ?
-
-<img src="https://github.com/webianks/crimson/blob/master/screens/screen_one.png" align="left" height="700" width="400" >
-<img src="https://github.com/webianks/crimson/blob/master/screens/screen_two.png"  height="700" width="400" >
-
 
 "Crimson" an Android Application can prove to be the ultimate care taker of your eyes in the following ways :- 
 
@@ -19,6 +14,10 @@ The eye is not only the most beautiful but also the most important sensory organ
 <li>Nearby clinics on map.</li>
 <li>Store reports on cloud</li>
 </ul>
+
+<img src="https://github.com/webianks/crimson/blob/master/screens/screen_one.png" align="left" height="700" width="400" >
+<img src="https://github.com/webianks/crimson/blob/master/screens/screen_two.png"  height="700" width="400" >
+
 
 ##Implementations
 
