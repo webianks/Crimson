@@ -13,6 +13,17 @@ The eye is not only the most beautiful but also the most important sensory organ
 <li>Store reports on cloud</li>
 </ul>
 
+##Implementations
+
+<ul>
+<li>JSON Parsing</li>
+<li>Services & Receivers</li>
+<li>Google Maps Api </li>
+<li>Google Calender Api</li>
+<li>Firebase Social Login & Storage</li>
+
+</ul>
+
 
 ```
  Copyright 2017 Ramankit Singh
