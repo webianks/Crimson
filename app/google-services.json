@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "816066846065",
-    "firebase_url": "https://crimsonexp-e639c.firebaseio.com",
-    "project_id": "crimsonexp-e639c",
-    "storage_bucket": "crimsonexp-e639c.appspot.com"
+    "project_number": "964596539199",
+    "firebase_url": "https://crimsonnew-33e2c.firebaseio.com",
+    "project_id": "crimsonnew-33e2c",
+    "storage_bucket": "crimsonnew-33e2c.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:816066846065:android:581d2222b412ce49",
+        "mobilesdk_app_id": "1:964596539199:android:581d2222b412ce49",
         "android_client_info": {
           "package_name": "com.webianks.exp.crimson"
         }
       },
       "oauth_client": [
         {
-          "client_id": "816066846065-uim54agfnr88ihorssju0qud5j7su3tn.apps.googleusercontent.com",
+          "client_id": "964596539199-eomhb77a7hvqeno6u9dld1ap5ooa4ijt.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.webianks.exp.crimson",
@@ -23,13 +23,13 @@
           }
         },
         {
-          "client_id": "816066846065-sfv9b2lsdn0j1njfe5l0nai5d7qik9c9.apps.googleusercontent.com",
+          "client_id": "964596539199-cj185acf3nplngc48ppi885u4h552fuj.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBYGtnCrZoljeNI5tpBkslWv3Ur_h7LxAM"
+          "current_key": "AIzaSyAoCcXRNE_r0s6vVDBIoG_B85p0ajZ9CR8"
         }
       ],
       "services": {
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "816066846065-sfv9b2lsdn0j1njfe5l0nai5d7qik9c9.apps.googleusercontent.com",
+              "client_id": "964596539199-cj185acf3nplngc48ppi885u4h552fuj.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
