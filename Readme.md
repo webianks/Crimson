@@ -7,7 +7,10 @@ The eye is not only the most beautiful but also the most important sensory organ
 1. It provides all the awareness and things to be done to maintain healthy eyes, like what to do and not to, what to eat etc.
 2. Continuously checks for the eye related problems like nearsightedness, farsightedness, colour blindness etc.
 3. Relaxation tips and exercises like colour filtering of screen for better sleep. 
-4. Eye test reminders and suggesting nearby doctors. 
+4. Eye test reminders and suggesting nearby doctors.
+5. Store your reports on cloud.
+
+
 
 ```
  Copyright 2017 Ramankit Singh
