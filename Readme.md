@@ -4,12 +4,14 @@ The eye is not only the most beautiful but also the most important sensory organ
 
 "Crimson" an Android Application can prove to be the ultimate care taker of your eyes in the following ways :- 
 
-1. It provides all the awareness and things to be done to maintain healthy eyes, like what to do and not to, what to eat etc.
-2. Continuously checks for the eye related problems like nearsightedness, farsightedness, colour blindness etc.
-3. Relaxation tips and exercises like colour filtering of screen for better sleep. 
-4. Eye test reminders and suggesting nearby doctors.
-5. Store your reports on cloud.
-
+<ul>
+<li>Facts & Awareness</li>
+<li>Sleep Better - <B>Blue Light Filter</B> & <B>Digital Eye Strain</B></li>
+<li>Eye Tests - like nearsightedness, farsightedness, colour blindness etc </li>
+<li>Eye Test Reminders</li>
+<li>Nearby clinics on map.</li>
+<li>Store reports on cloud</li>
+</ul>
 
 
 ```
